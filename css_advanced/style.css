@@ -127,6 +127,44 @@ p {
     border-left: 5px solid #4CAF50; /* Left border for emphasis */
     font-style: italic; /* Italic text for quotes */
 }
+section {
+    padding: 40px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 10px; /* Rounded corners for all sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* Default background color for sections */
+}
+
+/* Specific styles for the FAQ section */
+.faq-section {
+    background-color: #f9f9f9; /* Light background color for better readability */
+}
+
+.faq-item {
+    margin: 15px 0; /* Space between FAQ items */
+    border-bottom: 1px solid #ddd; /* Divider between items */
+    padding: 10px 0; /* Padding for each item */
+}
+
+.faq-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.faq-question {
+    font-weight: bold; /* Make questions bold */
+    cursor: pointer; /* Change cursor to pointer for interactivity */
+    color: #4CAF50; /* Color for questions */
+}
+
+.faq-answer {
+    display: none; /* Hidden by default */
+    margin-top: 5px; /* Space above the answer */
+    color: #666; /* Answer text color */
+}
+
+.faq-answer.active {
+    display: block; /* Show when active */
+}
 footer {
     text-align: center;
     padding: 10px;
