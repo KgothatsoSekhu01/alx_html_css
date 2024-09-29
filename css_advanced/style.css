@@ -165,12 +165,26 @@ section {
 .faq-answer.active {
     display: block; /* Show when active */
 }
+/* Footer styles */
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333; /* Footer background */
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    background-color: #333; /* Dark background for contrast */
+    color: #ffffff; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 20px; /* Padding for spacing */
+    position: relative; /* Keep footer at the bottom of the page */
+}
+
+footer p {
+    margin: 0; /* Remove default margin */
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+/* Optional: Add styles for links in the footer */
+footer a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for better interaction */
 }
