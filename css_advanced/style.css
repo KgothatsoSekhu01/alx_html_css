@@ -85,3 +85,12 @@ p {
     border-left: 5px solid #4CAF50; /* Left border for emphasis */
     font-style: italic; /* Italic text for quotes */
 }
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333; /* Footer background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
