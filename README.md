@@ -1,50 +1,35 @@
-# Project README
-
-## Overview
-
-Welcome to the Kgothatso's Project Figma Design! This README provides essential information about the project, including setup instructions, design details, and interaction notes. 
 
 ## Getting Started
 
-1. **Accessing the Figma File**:
-   - Create an account on Figma if you don’t have one.
-   - Open the provided project link.
-   - Click on "Duplicate to your Drafts" to gain access to all design details.
+1. **Clone the repository or download the project files.**
+2. **Ensure you have a modern web browser for testing.**
 
-2. **Fonts**:
-   - This project uses the following fonts:
-     - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-     - [Spin Cycle](https://www.fontsquirrel.com/fonts/spin-cycle)
-   - Ensure you have these fonts installed on your computer. If not, you can download them using the provided links.
+## Figma Design
 
-3. **Styling and Values**:
-   - Some design values may be in float format; feel free to round them as necessary for implementation.
+You can access the design file on Figma [here](link-to-figma).
 
-## Interaction Notes
+### Fonts
 
-- **Responsive Design**: The webpage will switch to the mobile version when the screen width is 480px or less.
-  
-- **Links**:
-  - Hover/Active State Color: `#FF6565`
+If the fonts used in the design are not available on your system, download them from:
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
+- [Spin Cycle OT](link-to-font)
 
-- **Buttons**:
-  - Hover/Active State: Opacity set to `0.9`
+## Setup Instructions
 
-- **Content Layout**:
-  - The maximum width of the content is `1000px` and should be centered on the page.
+1. Open `index.html` in your web browser to view the project.
+2. Ensure that all images are placed in the `images/` directory.
+3. The CSS file is linked in the HTML file, so any changes to styles should be made in `styles.css`.
 
-## Additional Resources
+## Important Notes
 
-For any additional design resources or assets, please refer to the Figma file or contact the design team.
-
-## Contribution
-
-Feel free to suggest changes or improvements. All contributions are welcome!
+- Some values in the Figma design are in floats; feel free to round them for implementation.
+- Make sure to verify the design details and adjust any HTML code as necessary (e.g., adding images for logos).
 
 ## License
 
-This project is licensed under [Your Licence Name]. See the LICENSE file for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Acknowledgments
 
-Thank you for your collaboration! Happy designing!
+- Figma for providing the design framework.
+- OpenAI for developing the AI model used in this project.
