@@ -58,3 +58,30 @@ main {
     color: #666666; /* Text color for paragraph */
     font-size: 1.2em; /* Font size for paragraph */
 }
+/* Common styles for all sections */
+section {
+    padding: 40px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 10px; /* Rounded corners for all sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* Default background color for sections */
+}
+
+/* Common text styles */
+h2 {
+    font-size: 2em; /* Default heading size */
+    color: #333; /* Default heading color */
+}
+
+p {
+    font-size: 1em; /* Default paragraph size */
+    color: #666; /* Default paragraph color */
+    line-height: 1.5; /* Line height for readability */
+}
+
+/* Specific styles for the quote section */
+.quote-section {
+    background-color: #f9f9f9; /* Light background color for quote section */
+    border-left: 5px solid #4CAF50; /* Left border for emphasis */
+    font-style: italic; /* Italic text for quotes */
+}
