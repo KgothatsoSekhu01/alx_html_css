@@ -1,52 +1,60 @@
 /* styles.css */
 
+/* Basic styles for the body */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Change as per design */
+    font-family: 'Source Sans Pro', sans-serif; /* Ensure this font is loaded */
+    background-color: #f4f4f4; /* Background color as per design */
 }
 
+/* Header styles */
 header {
-    background-color: #333; /* Header background */
+    background-color: #4CAF50; /* Header background color from Figma */
     color: #fff; /* Text color */
-    padding: 20px;
-    text-align: center;
+    padding: 20px; /* Space inside the header */
+    text-align: center; /* Center text */
 }
 
-.logo {
-    width: 150px; /* Adjust as needed */
+header .logo {
+    width: 150px; /* Adjust size as needed */
 }
 
+/* Navigation styles */
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    display: inline; /* Display list items inline */
+    margin: 0 15px; /* Space between links */
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+    color: #ffffff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
 }
 
+/* First section styles */
 main {
-    padding: 20px;
+    padding: 20px; /* Space inside the main content */
 }
 
-h1, h2 {
-    color: #333; /* Heading color */
+#section1 {
+    background-color: #ffffff; /* Background color for the section */
+    padding: 40px; /* Space inside the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333; /* Footer background */
-    color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+#section1 h1 {
+    color: #333333; /* Heading color */
+    font-size: 2.5em; /* Font size for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#section1 p {
+    color: #666666; /* Text color for paragraph */
+    font-size: 1.2em; /* Font size for paragraph */
 }
