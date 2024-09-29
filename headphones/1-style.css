@@ -1,1 +1,108 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* Variables for easier customization */
+:root {
+    --primary-color: #3498db;  /* Change this to your desired color */
+    --text-color: #333;
+    --font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Header/Hero Section Styles */
+.hero {
+    background-image: url('images/hero-background.jpg'); /* Adjust with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+}
+
+.logo {
+    max-width: 150px; /* Adjust based on your logo size */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: darken(var(--primary-color), 10%);
+}
+/* What We Do Section Styles */
+.what-we-do {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Light background color */
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.service-item {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Limit maximum width */
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+.icon-class-name {
+    font-size: 40px; /* Adjust icon size */
+    color: var(--primary-color); /* Use primary color */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Heading size */
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.5rem; /* Subheading size */
+}
+
+p {
+    font-size: 1rem; /* Description size */
+    color: var(--text-color);
+}
