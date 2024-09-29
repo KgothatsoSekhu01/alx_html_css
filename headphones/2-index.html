@@ -1,1 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Project Title</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Welcome to Our Website</h1>
+            <p>Your description or tagline goes here.</p>
+            <a href="#section1" class="cta-button">Get Started</a>
+        </div>
+    </header>
 
+    <main>
+    <header class="hero">
+        <div class="container">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <h1>Welcome to Our Website</h1>
+            <p>Your description or tagline goes here.</p>
+            <a href="#section1" class="cta-button">Get Started</a>
+        </div>
+    </header>
+
+    <section class="what-we-do">
+        <div class="container">
+            <h2>What We Do...</h2>
+            <div class="services">
+                <div class="service-item">
+                    <i class="icon-class-name"></i> <!-- Replace with the actual icon class -->
+                    <h3>Service One</h3>
+                    <p>Description of service one.</p>
+                </div>
+                <div class="service-item">
+                    <i class="icon-class-name"></i> <!-- Replace with the actual icon class -->
+                    <h3>Service Two</h3>
+                    <p>Description of service two.</p>
+                </div>
+                <div class="service-item">
+                    <i class="icon-class-name"></i> <!-- Replace with the actual icon class -->
+                    <h3>Service Three</h3>
+                    <p>Description of service three.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="our-results">
+        <div class="container">
+            <h2>Our Results</h2>
+            <div class="results-grid">
+                <div class="result-item">
+                    <h3>Result One</h3>
+                    <p>Details about result one.</p>
+                </div> 
+               <div class="result-item">
+                    <h3>Result Two</h3>
+                    <p>Details about result two.</p>
+                </div>
+                <div class="result-item">
+                    <h3>Result Three</h3>
+                    <p>Details about result three.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+Step 2: CSS for the “Our Results” Section
+Add styles for the “Our Results” section in your styles.css file:
+
+css
+Copy code
+/* Our Results Section Styles */
+.our-results {
+    padding: 40px 20px;
+    background-color: #f0f0f0; /* Slightly different background color */
+    text-align: center;
+}
+
+.results-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.result-item {
+    flex: 1 1 30%; /* Flex-grow, flex-shrink, flex-basis */
+    max-width: 300px; /* Limit maximum width */
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.result-item:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem; /* Heading size */
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 1.5rem; /* Subheading size */
+}
+
+p {
+    font-size: 1rem; /* Description size */
+    color: var(--text-color);
+}
+Step 3: Reusing Components
+In this setup, we're reusing the layout concepts and styles from the "What We Do..." section. The result-item classes can easily adapt styles from the service-item classes.
+
+Final Notes
+Responsiveness: The layout uses Flexbox for responsiveness, ensuring items adapt to smaller screens.
+Hover Effects: A similar hover effect is added for the results to maintain consistency.
+Customization: Feel free to adjust colors, fonts, and sizes based on your design preferences.
+This section will blend seamlessly with the previous sections while maintaining a cohesive look and feel. If you need further customization or additional sections, just let me know!
+
+
+Get smarter responses, uplo
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
