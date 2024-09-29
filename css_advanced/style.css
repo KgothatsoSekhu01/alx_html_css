@@ -66,6 +66,48 @@ section {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     background-color: #ffffff; /* Default background color for sections */
 }
+/* Common styles for all sections */
+section {
+    padding: 40px;
+    margin: 20px 0; /* Space between sections */
+    border-radius: 10px; /* Rounded corners for all sections */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* Default background color for sections */
+}
+
+/* Specific styles for the videos list section */
+.videos-list {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Space between items */
+}
+
+.video-item {
+    flex: 1 1 30%; /* Flex grow, shrink, and basis for responsive design */
+    margin: 10px; /* Space between video items */
+    background-color: #f9f9f9; /* Background color for video items */
+    border-radius: 8px; /* Rounded corners for video items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for video items */
+    overflow: hidden; /* Prevent overflow for rounded corners */
+}
+
+.video-item h3 {
+    font-size: 1.5em; /* Title size */
+    margin: 10px; /* Space around the title */
+    color: #333; /* Title color */
+}
+
+.video-item p {
+    font-size: 1em; /* Description size */
+    color: #666; /* Description color */
+    margin: 10px; /* Space around the description */
+}
+
+.video-item iframe {
+    width: 100%; /* Full width for the video */
+    height: 200px; /* Fixed height for the video */
+    border: none; /* Remove border from iframe */
+}
 
 /* Common text styles */
 h2 {
